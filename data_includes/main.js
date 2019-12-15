@@ -16,14 +16,20 @@ PennController( "welcome" ,
     ,
      newText("<p> Ce vârstă ai? </p>"),
     newTextInput("Age")
+    .settings.log()
+    .settings.lines(0)
         .print()
 	       ,
 	  newText("<p> Ce sex ai? (M/ F/ Altul) </p>"),
 	       newTextInput ("Gender")
+    .settings.log()
+    .settings.lines(0)
         .print()
 	       , 
 	        newText("<p> Cu ce te ocupi?</p>"),
-	    newTextInput ("Profession")  
+	    newTextInput ("Profession") 
+   .settings.log()
+    .settings.lines(0)
         .print()
 	       ,
 	       newText ("<p>Pentru a trece la pagina următoare pe parcursul jocului, foloseşte bara de spaţiu (space bar). </p>")
